@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+backend/venv/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.next/
+frontend/.next/
+.vite/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local DB / storage
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/data/
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite-*
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.json
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+
+# Generated outputs
+outputs/
+backend/outputs/
+
+# Generated audio
+audio/
+backend/audio/
+*.mp3
+!sample.mp3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
